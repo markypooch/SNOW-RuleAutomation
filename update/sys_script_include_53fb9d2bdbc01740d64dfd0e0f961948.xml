@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_ibmfi_ibm_automa.FirewallRule</api_name>
+        <client_callable>false</client_callable>
+        <description/>
+        <name>FirewallRule</name>
+        <script><![CDATA[function FirewallRule(dfw, sourceIPSet, destinationIPSet, service, applyToDevice, log, action, description, sectionID) {
+		this.dfw                = dfw;
+		this.sourceIPSet        = sourceIPSet;
+		this.destinationIPSet   = destinationIPSet;
+		this.service            = service;
+		this.applyToDevice      = applyToDevice;
+		this.log                = log;
+		this.action             = action;
+		this.description        = description;
+		this.sectionID          = sectionID;
+}]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>marcus.hansen</sys_created_by>
+        <sys_created_on>2018-02-09 02:06:00</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>53fb9d2bdbc01740d64dfd0e0f961948</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>FirewallRule</sys_name>
+        <sys_package display_value="IBM Automated Firewall Modules" source="x_ibmfi_ibm_automa">09631527dbc01740d64dfd0e0f96192d</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="IBM Automated Firewall Modules">09631527dbc01740d64dfd0e0f96192d</sys_scope>
+        <sys_update_name>sys_script_include_53fb9d2bdbc01740d64dfd0e0f961948</sys_update_name>
+        <sys_updated_by>marcus.hansen</sys_updated_by>
+        <sys_updated_on>2018-02-09 02:06:00</sys_updated_on>
+    </sys_script_include>
+</record_update>

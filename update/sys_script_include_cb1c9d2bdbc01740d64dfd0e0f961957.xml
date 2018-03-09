@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_ibmfi_ibm_automa.NSXRESTCall</api_name>
+        <client_callable>false</client_callable>
+        <description/>
+        <name>NSXRESTCall</name>
+        <script><![CDATA[function NSXRESTCall(endPoint, method, ipSetXML, eTag, acceptType, contentType) {
+	var restMessage = new sn_ws.RESTMessageV2();
+	restMessage.setEndpoint(endPoint);
+	restMessage.setHttpMethod(method);  
+	restMessage.setMIDServer(gs.getProperty('x_ibmfi_ibm_automa.mid_server'));  
+	restMessage.setRequestHeader("content-type", contentType);  
+	restMessage.setRequestHeader("accept", acceptType);
+	restMessage.setRequestHeader("Authorization", "Basic " + gs.getProperty('x_ibmfi_ibm_automa.nsx_manager_cred'));
+	restMessage.setEccParameter('skip_sensor', true);
+	
+	if (eTag != "") {
+		restMessage.setRequestHeader("If-Match", eTag);
+	}
+	if (method == "POST") restMessage.setRequestBody(ipSetXML);
+	
+	var response        = restMessage.executeAsync(); 
+	gs.info(response.getStatusCode());
+    return response;
+}
+]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>marcus.hansen</sys_created_by>
+        <sys_created_on>2018-02-09 02:06:45</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>cb1c9d2bdbc01740d64dfd0e0f961957</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>NSXRESTCall</sys_name>
+        <sys_package display_value="IBM Automated Firewall Modules" source="x_ibmfi_ibm_automa">09631527dbc01740d64dfd0e0f96192d</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="IBM Automated Firewall Modules">09631527dbc01740d64dfd0e0f96192d</sys_scope>
+        <sys_update_name>sys_script_include_cb1c9d2bdbc01740d64dfd0e0f961957</sys_update_name>
+        <sys_updated_by>marcus.hansen</sys_updated_by>
+        <sys_updated_on>2018-02-09 02:34:20</sys_updated_on>
+    </sys_script_include>
+</record_update>

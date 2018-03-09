@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_list parent="" relationship="" sys_domain="774190f01f1310005a3637b8ec8b70ef" table="x_ibmfi_ibm_automa_nsx_firewall_rules" version="2" view="">
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>description</element>
+            <list_id display_value="x_ibmfi_ibm_automa_nsx_firewall_rules" element="NULL" name="x_ibmfi_ibm_automa_nsx_firewall_rules" parent="NULL" relationship="NULL" sys_domain="774190f01f1310005a3637b8ec8b70ef" view="Default view">c78ee12cdbd493004a36f81d0f9619a8</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>0</position>
+            <sum>false</sum>
+            <sys_created_by>marcus.hansen</sys_created_by>
+            <sys_created_on>2018-02-12 06:00:39</sys_created_on>
+            <sys_id>478ee12cdbd493004a36f81d0f9619a9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>marcus.hansen</sys_updated_by>
+            <sys_updated_on>2018-02-12 06:00:39</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>destination_s</element>
+            <list_id display_value="x_ibmfi_ibm_automa_nsx_firewall_rules" element="NULL" name="x_ibmfi_ibm_automa_nsx_firewall_rules" parent="NULL" relationship="NULL" sys_domain="774190f01f1310005a3637b8ec8b70ef" view="Default view">c78ee12cdbd493004a36f81d0f9619a8</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>1</position>
+            <sum>false</sum>
+            <sys_created_by>marcus.hansen</sys_created_by>
+            <sys_created_on>2018-02-12 06:00:39</sys_created_on>
+            <sys_id>cf8ee12cdbd493004a36f81d0f9619a9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>marcus.hansen</sys_updated_by>
+            <sys_updated_on>2018-02-12 06:00:39</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>device_applied_to</element>
+            <list_id display_value="x_ibmfi_ibm_automa_nsx_firewall_rules" element="NULL" name="x_ibmfi_ibm_automa_nsx_firewall_rules" parent="NULL" relationship="NULL" sys_domain="774190f01f1310005a3637b8ec8b70ef" view="Default view">c78ee12cdbd493004a36f81d0f9619a8</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>2</position>
+            <sum>false</sum>
+            <sys_created_by>marcus.hansen</sys_created_by>
+            <sys_created_on>2018-02-12 06:00:39</sys_created_on>
+            <sys_id>438ee12cdbd493004a36f81d0f9619aa</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>marcus.hansen</sys_updated_by>
+            <sys_updated_on>2018-02-12 06:00:39</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>firewall_section</element>
+            <list_id display_value="x_ibmfi_ibm_automa_nsx_firewall_rules" element="NULL" name="x_ibmfi_ibm_automa_nsx_firewall_rules" parent="NULL" relationship="NULL" sys_domain="774190f01f1310005a3637b8ec8b70ef" view="Default view">c78ee12cdbd493004a36f81d0f9619a8</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>3</position>
+            <sum>false</sum>
+            <sys_created_by>marcus.hansen</sys_created_by>
+            <sys_created_on>2018-02-12 06:00:39</sys_created_on>
+            <sys_id>c38ee12cdbd493004a36f81d0f9619aa</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>marcus.hansen</sys_updated_by>
+            <sys_updated_on>2018-02-12 06:00:39</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>location</element>
+            <list_id display_value="x_ibmfi_ibm_automa_nsx_firewall_rules" element="NULL" name="x_ibmfi_ibm_automa_nsx_firewall_rules" parent="NULL" relationship="NULL" sys_domain="774190f01f1310005a3637b8ec8b70ef" view="Default view">c78ee12cdbd493004a36f81d0f9619a8</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>4</position>
+            <sum>false</sum>
+            <sys_created_by>marcus.hansen</sys_created_by>
+            <sys_created_on>2018-02-12 06:00:39</sys_created_on>
+            <sys_id>478ee12cdbd493004a36f81d0f9619aa</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>marcus.hansen</sys_updated_by>
+            <sys_updated_on>2018-02-12 06:00:39</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>services</element>
+            <list_id display_value="x_ibmfi_ibm_automa_nsx_firewall_rules" element="NULL" name="x_ibmfi_ibm_automa_nsx_firewall_rules" parent="NULL" relationship="NULL" sys_domain="774190f01f1310005a3637b8ec8b70ef" view="Default view">c78ee12cdbd493004a36f81d0f9619a8</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>5</position>
+            <sum>false</sum>
+            <sys_created_by>marcus.hansen</sys_created_by>
+            <sys_created_on>2018-02-12 06:00:39</sys_created_on>
+            <sys_id>c78ee12cdbd493004a36f81d0f9619aa</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>marcus.hansen</sys_updated_by>
+            <sys_updated_on>2018-02-12 06:00:39</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>source_s</element>
+            <list_id display_value="x_ibmfi_ibm_automa_nsx_firewall_rules" element="NULL" name="x_ibmfi_ibm_automa_nsx_firewall_rules" parent="NULL" relationship="NULL" sys_domain="774190f01f1310005a3637b8ec8b70ef" view="Default view">c78ee12cdbd493004a36f81d0f9619a8</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>6</position>
+            <sum>false</sum>
+            <sys_created_by>marcus.hansen</sys_created_by>
+            <sys_created_on>2018-02-12 06:00:39</sys_created_on>
+            <sys_id>4b8ee12cdbd493004a36f81d0f9619aa</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>marcus.hansen</sys_updated_by>
+            <sys_updated_on>2018-02-12 06:00:39</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>action</element>
+            <list_id display_value="x_ibmfi_ibm_automa_nsx_firewall_rules" element="NULL" name="x_ibmfi_ibm_automa_nsx_firewall_rules" parent="NULL" relationship="NULL" sys_domain="774190f01f1310005a3637b8ec8b70ef" view="Default view">c78ee12cdbd493004a36f81d0f9619a8</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>7</position>
+            <sum>false</sum>
+            <sys_created_by>marcus.hansen</sys_created_by>
+            <sys_created_on>2018-02-12 06:00:39</sys_created_on>
+            <sys_id>cb8ee12cdbd493004a36f81d0f9619aa</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>marcus.hansen</sys_updated_by>
+            <sys_updated_on>2018-02-12 06:00:39</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element/>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <name>x_ibmfi_ibm_automa_nsx_firewall_rules</name>
+            <parent/>
+            <position/>
+            <relationship/>
+            <sum>false</sum>
+            <sys_class_name>sys_ui_list</sys_class_name>
+            <sys_created_by>marcus.hansen</sys_created_by>
+            <sys_created_on>2018-02-12 06:00:39</sys_created_on>
+            <sys_customer_update>true</sys_customer_update>
+            <sys_domain>774190f01f1310005a3637b8ec8b70ef</sys_domain>
+            <sys_domain_path>!!!/</sys_domain_path>
+            <sys_id>c78ee12cdbd493004a36f81d0f9619a8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_ibmfi_ibm_automa_nsx_firewall_rules</sys_name>
+            <sys_package display_value="IBM Automated Firewall Modules" source="x_ibmfi_ibm_automa">09631527dbc01740d64dfd0e0f96192d</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="IBM Automated Firewall Modules">09631527dbc01740d64dfd0e0f96192d</sys_scope>
+            <sys_update_name>sys_ui_list_x_ibmfi_ibm_automa_nsx_firewall_rules_null_774190f01f1310005a3637b8ec8b70ef</sys_update_name>
+            <sys_updated_by>marcus.hansen</sys_updated_by>
+            <sys_updated_on>2018-02-12 06:00:39</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_list>
+    </sys_ui_list>
+</record_update>

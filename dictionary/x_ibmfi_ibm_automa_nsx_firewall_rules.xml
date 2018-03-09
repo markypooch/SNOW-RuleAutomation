@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="NSX Firewall Rules" max_length="40" name="x_ibmfi_ibm_automa_nsx_firewall_rules" type="collection">
+        <element label="Action" max_length="128" name="action" type="string"/>
+        <element label="Description" max_length="40" name="description" type="string"/>
+        <element label="Destination(s)" max_length="100000000" name="destination_s" type="string"/>
+        <element label="Device Applied To" max_length="2048" name="device_applied_to" type="string"/>
+        <element label="Firewall Section" max_length="256" name="firewall_section" type="string"/>
+        <element label="Location" max_length="256" name="location" type="string"/>
+        <element label="Services" max_length="2048" name="services" type="string"/>
+        <element label="Source(s)" max_length="100000000" name="source_s" type="string"/>
+    </element>
+</database>

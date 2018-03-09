@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_properties">
+    <sys_properties action="INSERT_OR_UPDATE">
+        <choices/>
+        <description/>
+        <ignore_cache>false</ignore_cache>
+        <is_private>false</is_private>
+        <name>x_ibmfi_ibm_automa.nsx_manager_cred</name>
+        <read_roles/>
+        <suffix>nsx_manager_cred</suffix>
+        <sys_class_name>sys_properties</sys_class_name>
+        <sys_created_by>marcus.hansen</sys_created_by>
+        <sys_created_on>2018-02-09 02:26:52</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>3aa0a5efdbc01740d64dfd0e0f96194b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_ibmfi_ibm_automa.nsx_manager_cred</sys_name>
+        <sys_package display_value="IBM Automated Firewall Modules" source="x_ibmfi_ibm_automa">09631527dbc01740d64dfd0e0f96192d</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="IBM Automated Firewall Modules">09631527dbc01740d64dfd0e0f96192d</sys_scope>
+        <sys_update_name>sys_properties_3aa0a5efdbc01740d64dfd0e0f96194b</sys_update_name>
+        <sys_updated_by>marcus.hansen</sys_updated_by>
+        <sys_updated_on>2018-02-09 02:26:52</sys_updated_on>
+        <type>string</type>
+        <value>YWRtaW46RnVua3khSDBtMFNhcDFlbg==</value>
+        <write_roles/>
+    </sys_properties>
+    <sys_translated_text action="delete_multiple" query="documentkey=3aa0a5efdbc01740d64dfd0e0f96194b"/>
+</record_update>

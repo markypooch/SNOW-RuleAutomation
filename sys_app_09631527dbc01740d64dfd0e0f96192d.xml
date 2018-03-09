@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_app">
+    <sys_app action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <enforce_license>log</enforce_license>
+        <js_level>helsinki_es5</js_level>
+        <licensable>true</licensable>
+        <license_model>none</license_model>
+        <logo/>
+        <menu/>
+        <name>IBM Automated Firewall Modules</name>
+        <private>false</private>
+        <restrict_table_access>false</restrict_table_access>
+        <runtime_access_tracking>permissive</runtime_access_tracking>
+        <scope>x_ibmfi_ibm_automa</scope>
+        <scoped_administration>false</scoped_administration>
+        <short_description/>
+        <source>x_ibmfi_ibm_automa</source>
+        <store_correlation_id>REPOAPP0000051756</store_correlation_id>
+        <store_url/>
+        <sys_class_name>sys_app</sys_class_name>
+        <sys_code/>
+        <sys_created_by>marcus.hansen</sys_created_by>
+        <sys_created_on>2018-02-09 01:28:04</sys_created_on>
+        <sys_id>09631527dbc01740d64dfd0e0f96192d</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_updated_by>marcus.hansen</sys_updated_by>
+        <sys_updated_on>2018-02-12 08:22:29</sys_updated_on>
+        <template/>
+        <trackable>true</trackable>
+        <user_role/>
+        <vendor/>
+        <vendor_prefix/>
+        <version>1.0.0.3</version>
+    </sys_app>
+</record_update>

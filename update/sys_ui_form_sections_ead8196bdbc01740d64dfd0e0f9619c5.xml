@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_form_sections form_id="ead8196bdbc01740d64dfd0e0f9619c5" sys_domain="774190f01f1310005a3637b8ec8b70ef" table="x_ibmfi_ibm_automa_nsx_firewalls" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>marcus.hansen</sys_created_by>
+            <sys_created_on>2018-02-09 01:51:55</sys_created_on>
+            <sys_domain>774190f01f1310005a3637b8ec8b70ef</sys_domain>
+            <sys_domain_path>!!!/</sys_domain_path>
+            <sys_id>6ed8196bdbc01740d64dfd0e0f9619c8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_ibmfi_ibm_automa_nsx_firewalls" name="x_ibmfi_ibm_automa_nsx_firewalls" sys_domain="774190f01f1310005a3637b8ec8b70ef" view="Default view">ead8196bdbc01740d64dfd0e0f9619c5</sys_ui_form>
+            <sys_ui_section caption="Name" display_value="Name" name="x_ibmfi_ibm_automa_nsx_firewalls" sys_domain="774190f01f1310005a3637b8ec8b70ef" view="Default view">a7f7d92bdbc01740d64dfd0e0f961970</sys_ui_section>
+            <sys_updated_by>marcus.hansen</sys_updated_by>
+            <sys_updated_on>2018-02-09 01:51:55</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>marcus.hansen</sys_created_by>
+            <sys_created_on>2018-02-09 01:51:55</sys_created_on>
+            <sys_domain>774190f01f1310005a3637b8ec8b70ef</sys_domain>
+            <sys_domain_path>!!!/</sys_domain_path>
+            <sys_id>22d8196bdbc01740d64dfd0e0f9619ca</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_ibmfi_ibm_automa_nsx_firewalls" name="x_ibmfi_ibm_automa_nsx_firewalls" sys_domain="774190f01f1310005a3637b8ec8b70ef" view="Default view">ead8196bdbc01740d64dfd0e0f9619c5</sys_ui_form>
+            <sys_ui_section caption="New Section" display_value="New Section" name="x_ibmfi_ibm_automa_nsx_firewalls" sys_domain="774190f01f1310005a3637b8ec8b70ef" view="Default view">aed8196bdbc01740d64dfd0e0f9619c4</sys_ui_section>
+            <sys_updated_by>marcus.hansen</sys_updated_by>
+            <sys_updated_on>2018-02-09 01:51:55</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_ibmfi_ibm_automa_nsx_firewalls</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>marcus.hansen</sys_created_by>
+            <sys_created_on>2018-02-09 01:51:55</sys_created_on>
+            <sys_customer_update>true</sys_customer_update>
+            <sys_domain>774190f01f1310005a3637b8ec8b70ef</sys_domain>
+            <sys_domain_path>!!!/</sys_domain_path>
+            <sys_id>ead8196bdbc01740d64dfd0e0f9619c5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_ibmfi_ibm_automa_nsx_firewalls</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="IBM Automated Firewall Modules" source="x_ibmfi_ibm_automa">09631527dbc01740d64dfd0e0f96192d</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="IBM Automated Firewall Modules">09631527dbc01740d64dfd0e0f96192d</sys_scope>
+            <sys_update_name>sys_ui_form_sections_ead8196bdbc01740d64dfd0e0f9619c5</sys_update_name>
+            <sys_updated_by>marcus.hansen</sys_updated_by>
+            <sys_updated_on>2018-02-09 01:51:55</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

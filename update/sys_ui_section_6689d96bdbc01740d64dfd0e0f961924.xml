@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_section caption="" section_id="6689d96bdbc01740d64dfd0e0f961924" sys_domain="774190f01f1310005a3637b8ec8b70ef" table="x_ibmfi_ibm_automa_nsx_firewall_rules" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>location</element>
+            <position>0</position>
+            <sys_created_by>marcus.hansen</sys_created_by>
+            <sys_created_on>2018-02-09 01:55:50</sys_created_on>
+            <sys_id>73b9d1abdbc01740d64dfd0e0f961955</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ibmfi_ibm_automa_nsx_firewall_rules" sys_domain="774190f01f1310005a3637b8ec8b70ef" view="Default view">6689d96bdbc01740d64dfd0e0f961924</sys_ui_section>
+            <sys_updated_by>marcus.hansen</sys_updated_by>
+            <sys_updated_on>2018-02-09 01:55:50</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>source_s</element>
+            <position>1</position>
+            <sys_created_by>marcus.hansen</sys_created_by>
+            <sys_created_on>2018-02-09 01:55:50</sys_created_on>
+            <sys_id>f3b9d1abdbc01740d64dfd0e0f961955</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ibmfi_ibm_automa_nsx_firewall_rules" sys_domain="774190f01f1310005a3637b8ec8b70ef" view="Default view">6689d96bdbc01740d64dfd0e0f961924</sys_ui_section>
+            <sys_updated_by>marcus.hansen</sys_updated_by>
+            <sys_updated_on>2018-02-09 01:55:50</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>firewall_section</element>
+            <position>2</position>
+            <sys_created_by>marcus.hansen</sys_created_by>
+            <sys_created_on>2018-02-09 01:55:50</sys_created_on>
+            <sys_id>77b9d1abdbc01740d64dfd0e0f961955</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ibmfi_ibm_automa_nsx_firewall_rules" sys_domain="774190f01f1310005a3637b8ec8b70ef" view="Default view">6689d96bdbc01740d64dfd0e0f961924</sys_ui_section>
+            <sys_updated_by>marcus.hansen</sys_updated_by>
+            <sys_updated_on>2018-02-09 01:55:50</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>device_applied_to</element>
+            <position>3</position>
+            <sys_created_by>marcus.hansen</sys_created_by>
+            <sys_created_on>2018-02-09 01:55:50</sys_created_on>
+            <sys_id>f7b9d1abdbc01740d64dfd0e0f961955</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ibmfi_ibm_automa_nsx_firewall_rules" sys_domain="774190f01f1310005a3637b8ec8b70ef" view="Default view">6689d96bdbc01740d64dfd0e0f961924</sys_ui_section>
+            <sys_updated_by>marcus.hansen</sys_updated_by>
+            <sys_updated_on>2018-02-09 01:55:50</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>4</position>
+            <sys_created_by>marcus.hansen</sys_created_by>
+            <sys_created_on>2018-02-09 01:55:50</sys_created_on>
+            <sys_id>7bb9d1abdbc01740d64dfd0e0f961955</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ibmfi_ibm_automa_nsx_firewall_rules" sys_domain="774190f01f1310005a3637b8ec8b70ef" view="Default view">6689d96bdbc01740d64dfd0e0f961924</sys_ui_section>
+            <sys_updated_by>marcus.hansen</sys_updated_by>
+            <sys_updated_on>2018-02-09 01:55:50</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>description</element>
+            <position>5</position>
+            <sys_created_by>marcus.hansen</sys_created_by>
+            <sys_created_on>2018-02-09 01:55:50</sys_created_on>
+            <sys_id>fbb9d1abdbc01740d64dfd0e0f961955</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ibmfi_ibm_automa_nsx_firewall_rules" sys_domain="774190f01f1310005a3637b8ec8b70ef" view="Default view">6689d96bdbc01740d64dfd0e0f961924</sys_ui_section>
+            <sys_updated_by>marcus.hansen</sys_updated_by>
+            <sys_updated_on>2018-02-09 01:55:50</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>destination_s</element>
+            <position>6</position>
+            <sys_created_by>marcus.hansen</sys_created_by>
+            <sys_created_on>2018-02-09 01:55:50</sys_created_on>
+            <sys_id>7fb9d1abdbc01740d64dfd0e0f961955</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ibmfi_ibm_automa_nsx_firewall_rules" sys_domain="774190f01f1310005a3637b8ec8b70ef" view="Default view">6689d96bdbc01740d64dfd0e0f961924</sys_ui_section>
+            <sys_updated_by>marcus.hansen</sys_updated_by>
+            <sys_updated_on>2018-02-09 01:55:50</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>services</element>
+            <position>7</position>
+            <sys_created_by>marcus.hansen</sys_created_by>
+            <sys_created_on>2018-02-09 01:55:50</sys_created_on>
+            <sys_id>ffb9d1abdbc01740d64dfd0e0f961955</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ibmfi_ibm_automa_nsx_firewall_rules" sys_domain="774190f01f1310005a3637b8ec8b70ef" view="Default view">6689d96bdbc01740d64dfd0e0f961924</sys_ui_section>
+            <sys_updated_by>marcus.hansen</sys_updated_by>
+            <sys_updated_on>2018-02-09 01:55:50</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>x_ibmfi_ibm_automa_nsx_firewall_rules</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>marcus.hansen</sys_created_by>
+            <sys_created_on>2018-02-09 01:54:56</sys_created_on>
+            <sys_customer_update>true</sys_customer_update>
+            <sys_domain>774190f01f1310005a3637b8ec8b70ef</sys_domain>
+            <sys_domain_path>!!!/</sys_domain_path>
+            <sys_id>6689d96bdbc01740d64dfd0e0f961924</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_ibmfi_ibm_automa_nsx_firewall_rules</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="IBM Automated Firewall Modules" source="x_ibmfi_ibm_automa">09631527dbc01740d64dfd0e0f96192d</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="IBM Automated Firewall Modules">09631527dbc01740d64dfd0e0f96192d</sys_scope>
+            <sys_update_name>sys_ui_section_6689d96bdbc01740d64dfd0e0f961924</sys_update_name>
+            <sys_updated_by>marcus.hansen</sys_updated_by>
+            <sys_updated_on>2018-02-09 01:54:56</sys_updated_on>
+            <sys_user/>
+            <title>true</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>
