@@ -58,7 +58,7 @@
         <sys_class_name>item_option_new</sys_class_name>
         <sys_created_by>marcus.hansen</sys_created_by>
         <sys_created_on>2018-02-12 03:33:10</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>26cc0568db9493004a36f81d0f9619e3</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>PPF Template</sys_name>

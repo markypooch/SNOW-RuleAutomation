@@ -52,8 +52,8 @@
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>marcus.hansen</sys_created_by>
         <sys_created_on>2018-02-09 01:46:52</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
-        <sys_id>5be691e3dbc01740d64dfd0e0f9619f2</sys_id>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>056df534db30130079b0d421cf9619d7</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Name</sys_name>
         <sys_package display_value="IBM Automated Firewall Modules" source="x_ibmfi_ibm_automa">09631527dbc01740d64dfd0e0f96192d</sys_package>
@@ -61,8 +61,8 @@
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="IBM Automated Firewall Modules">09631527dbc01740d64dfd0e0f96192d</sys_scope>
         <sys_update_name>sys_dictionary_x_ibmfi_ibm_automa_nsx_firewalls_name</sys_update_name>
-        <sys_updated_by>marcus.hansen</sys_updated_by>
-        <sys_updated_on>2018-02-09 01:46:52</sys_updated_on>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2018-03-09 22:15:33</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

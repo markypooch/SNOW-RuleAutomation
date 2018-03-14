@@ -12,7 +12,7 @@
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>marcus.hansen</sys_created_by>
             <sys_created_on>2018-02-12 05:53:42</sys_created_on>
-            <sys_customer_update>true</sys_customer_update>
+            <sys_customer_update>false</sys_customer_update>
             <sys_id>51fce9a8dbd493004a36f81d0f96190e</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>Action</sys_name>

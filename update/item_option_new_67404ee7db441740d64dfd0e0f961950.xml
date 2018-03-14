@@ -58,7 +58,7 @@
         <sys_class_name>item_option_new</sys_class_name>
         <sys_created_by>marcus.hansen</sys_created_by>
         <sys_created_on>2018-02-09 04:45:24</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>67404ee7db441740d64dfd0e0f961950</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Basic Information</sys_name>

@@ -12,7 +12,7 @@
         <sys_class_name>sys_user_role</sys_class_name>
         <sys_created_by>marcus.hansen</sys_created_by>
         <sys_created_on>2018-02-09 01:43:09</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>8ad65167dbc01740d64dfd0e0f961950</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>x_ibmfi_ibm_automa.nsx_firewall_section_user</sys_name>
@@ -23,7 +23,5 @@
         <sys_update_name>sys_user_role_8ad65167dbc01740d64dfd0e0f961950</sys_update_name>
         <sys_updated_by>marcus.hansen</sys_updated_by>
         <sys_updated_on>2018-02-09 01:43:09</sys_updated_on>
-        <u_approver>false</u_approver>
-        <u_fulfiller>false</u_fulfiller>
     </sys_user_role>
 </record_update>

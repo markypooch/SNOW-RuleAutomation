@@ -119,9 +119,9 @@
             <sys_class_name>sys_ui_list</sys_class_name>
             <sys_created_by>marcus.hansen</sys_created_by>
             <sys_created_on>2018-02-09 18:12:37</sys_created_on>
-            <sys_customer_update>true</sys_customer_update>
+            <sys_customer_update>false</sys_customer_update>
             <sys_domain>774190f01f1310005a3637b8ec8b70ef</sys_domain>
-            <sys_domain_path>!!!/</sys_domain_path>
+            <sys_domain_path/>
             <sys_id>8059f8f7db8c1740d64dfd0e0f961980</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>x_ibmfi_ibm_automa_nsx_firewalls</sys_name>
@@ -129,7 +129,7 @@
             <sys_policy/>
             <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
             <sys_scope display_value="IBM Automated Firewall Modules">09631527dbc01740d64dfd0e0f96192d</sys_scope>
-            <sys_update_name>sys_ui_list_x_ibmfi_ibm_automa_nsx_firewalls_null_774190f01f1310005a3637b8ec8b70ef</sys_update_name>
+            <sys_update_name>sys_ui_list_x_ibmfi_ibm_automa_nsx_firewalls_null_8059f8f7db8c1740d64dfd0e0f961980</sys_update_name>
             <sys_updated_by>marcus.hansen</sys_updated_by>
             <sys_updated_on>2018-02-09 18:12:37</sys_updated_on>
             <sys_user/>

@@ -5,7 +5,7 @@
         <condition/>
         <conditional>false</conditional>
         <name>NSX Firewall Rule Import</name>
-        <run_as display_value="Marcus Hansen">83fe5493dbfbba806d4676721f96191a</run_as>
+        <run_as display_value="">83fe5493dbfbba806d4676721f96191a</run_as>
         <run_as_tz/>
         <run_dayofmonth>1</run_dayofmonth>
         <run_dayofweek>1</run_dayofweek>
@@ -15,12 +15,13 @@
         <run_type>daily</run_type>
         <script><![CDATA[var endPoint = 'https://' + gs.getProperty('x_ibmfi_ibm_automa.nsx_manager_bdr') + '/api/4.0/firewall/globalroot-0/config';
 var response = NSXRESTCall(endPoint, "GET", "", "", "application/json", "application/json");
+
 var gr = new GlideRecord('x_ibmfi_ibm_automa_nsx_firewall_rules');
 gr.deleteMultiple();
+
 if (response.getStatusCode() == 200) {
-gs.info(response.getBody());
+
 	var jsonParsed = JSON.parse(response.getBody());
-	
 	for (var i = 0; i < jsonParsed.layer3Sections.layer3Sections.length; i++) {
 		for (var j = 0; j < jsonParsed.layer3Sections.layer3Sections[i].rules.length; j++) {
 			var appliedToString = "";
@@ -33,39 +34,39 @@ gs.info(response.getBody());
 			description = jsonParsed.layer3Sections.layer3Sections[i].rules[j].description;
 			action      = jsonParsed.layer3Sections.layer3Sections[i].rules[j].action;
 			location    = "IBM Boulder";
-if (jsonParsed.layer3Sections.layer3Sections[i].rules[j].appliedToList != null) {
-			for (var k = 0; k < jsonParsed.layer3Sections.layer3Sections[i].rules[j].appliedToList.appliedToList.length; k++) {
-				appliedToString += jsonParsed.layer3Sections.layer3Sections[i].rules[j].appliedToList.appliedToList[k].name + "/" + jsonParsed.layer3Sections.layer3Sections[i].rules[j].appliedToList.appliedToList[k].value + ", ";
-			}
-}
-else appliedToList += "ANY";
-			
-if (jsonParsed.layer3Sections.layer3Sections[i].rules[j].sources != null) {
-			for (var k = 0; k < jsonParsed.layer3Sections.layer3Sections[i].rules[j].sources.sourceList.length; k++) {
-				sourceList += jsonParsed.layer3Sections.layer3Sections[i].rules[j].sources.sourceList[k].name + "/" + jsonParsed.layer3Sections.layer3Sections[i].rules[j].sources.sourceList[k].value + ", ";
-			}
-}
-else sourceList += "ANY";
-
-if (jsonParsed.layer3Sections.layer3Sections[i].rules[j].services != null) {
-			for (var k = 0; k < jsonParsed.layer3Sections.layer3Sections[i].rules[j].services.serviceList.length; k++) {
-				if (jsonParsed.layer3Sections.layer3Sections[i].rules[j].services.serviceList[k].name != null && jsonParsed.layer3Sections.layer3Sections[i].rules[j].services.serviceList[k].value != null) {
-					serviceList += jsonParsed.layer3Sections.layer3Sections[i].rules[j].services.serviceList[k].name + "/" + jsonParsed.layer3Sections.layer3Sections[i].rules[j].services.serviceList[k].value + ", ";
+			if (jsonParsed.layer3Sections.layer3Sections[i].rules[j].appliedToList != null) {
+				for (var k = 0; k < jsonParsed.layer3Sections.layer3Sections[i].rules[j].appliedToList.appliedToList.length; k++) {
+					appliedToString += jsonParsed.layer3Sections.layer3Sections[i].rules[j].appliedToList.appliedToList[k].name + "/" + jsonParsed.layer3Sections.layer3Sections[i].rules[j].appliedToList.appliedToList[k].value + ", ";
 				}
-				else {
-					serviceList += jsonParsed.layer3Sections.layer3Sections[i].rules[j].services.serviceList[k].destinationPort + "/" + jsonParsed.layer3Sections.layer3Sections[i].rules[j].services.serviceList[k].protocolName + ", ";
-				}
-				
 			}
-}
-else serviceList += "ANY";
+			else appliedToList += "ANY";
 
-if (jsonParsed.layer3Sections.layer3Sections[i].rules[j].destinations != null) {
-			for (var k = 0; k < jsonParsed.layer3Sections.layer3Sections[i].rules[j].destinations.destinationList.length; k++) {
-				destinationList += jsonParsed.layer3Sections.layer3Sections[i].rules[j].destinations.destinationList[k].name + "/" + jsonParsed.layer3Sections.layer3Sections[i].rules[j].destinations.destinationList[k].value + ", ";
+			if (jsonParsed.layer3Sections.layer3Sections[i].rules[j].sources != null) {
+				for (var k = 0; k < jsonParsed.layer3Sections.layer3Sections[i].rules[j].sources.sourceList.length; k++) {
+					sourceList += jsonParsed.layer3Sections.layer3Sections[i].rules[j].sources.sourceList[k].name + "/" + jsonParsed.layer3Sections.layer3Sections[i].rules[j].sources.sourceList[k].value + ", ";
+				}
 			}
-}
-else destinationList += "ANY";
+			else sourceList += "ANY";
+
+			if (jsonParsed.layer3Sections.layer3Sections[i].rules[j].services != null) {
+				for (var k = 0; k < jsonParsed.layer3Sections.layer3Sections[i].rules[j].services.serviceList.length; k++) {
+					if (jsonParsed.layer3Sections.layer3Sections[i].rules[j].services.serviceList[k].name != null && jsonParsed.layer3Sections.layer3Sections[i].rules[j].services.serviceList[k].value != null) {
+						serviceList += jsonParsed.layer3Sections.layer3Sections[i].rules[j].services.serviceList[k].name + "/" + jsonParsed.layer3Sections.layer3Sections[i].rules[j].services.serviceList[k].value + ", ";
+					}
+					else {
+						serviceList += jsonParsed.layer3Sections.layer3Sections[i].rules[j].services.serviceList[k].destinationPort + "/" + jsonParsed.layer3Sections.layer3Sections[i].rules[j].services.serviceList[k].protocolName + ", ";
+					}
+
+				}
+			}
+			else serviceList += "ANY";
+
+			if (jsonParsed.layer3Sections.layer3Sections[i].rules[j].destinations != null) {
+				for (var k = 0; k < jsonParsed.layer3Sections.layer3Sections[i].rules[j].destinations.destinationList.length; k++) {
+					destinationList += jsonParsed.layer3Sections.layer3Sections[i].rules[j].destinations.destinationList[k].name + "/" + jsonParsed.layer3Sections.layer3Sections[i].rules[j].destinations.destinationList[k].value + ", ";
+				}
+			}
+			else destinationList += "ANY";
 			
 			gr.initialize();
 			gr.description = jsonParsed.layer3Sections.layer3Sections[i].rules[j].name;
@@ -87,9 +88,8 @@ else {
 var endPoint = 'https://' + gs.getProperty('x_ibmfi_ibm_automa.nsx_manager_rtp') + '/api/4.0/firewall/globalroot-0/config';
 var response = NSXRESTCall(endPoint, "GET", "", "", "application/json", "application/json");
 if (response.getStatusCode() == 200) {
-gs.info(response.getBody());
+
 	var jsonParsed = JSON.parse(response.getBody());
-	
 	for (var i = 0; i < jsonParsed.layer3Sections.layer3Sections.length; i++) {
 		for (var j = 0; j < jsonParsed.layer3Sections.layer3Sections[i].rules.length; j++) {
 			var gr = new GlideRecord('x_ibmfi_ibm_automa_nsx_firewall_rules');
@@ -103,39 +103,39 @@ gs.info(response.getBody());
 			description = jsonParsed.layer3Sections.layer3Sections[i].rules[j].description;
 			action      = jsonParsed.layer3Sections.layer3Sections[i].rules[j].action;
 			location    = "IBM RTP";
-if (jsonParsed.layer3Sections.layer3Sections[i].rules[j].appliedToList != null) {
-			for (var k = 0; k < jsonParsed.layer3Sections.layer3Sections[i].rules[j].appliedToList.appliedToList.length; k++) {
-				appliedToString += jsonParsed.layer3Sections.layer3Sections[i].rules[j].appliedToList.appliedToList[k].name + "/" + jsonParsed.layer3Sections.layer3Sections[i].rules[j].appliedToList.appliedToList[k].value + ", ";
-			}
-}
-else appliedToString += "ANY";
-			
-if (jsonParsed.layer3Sections.layer3Sections[i].rules[j].sources != null) {
-			for (var k = 0; k < jsonParsed.layer3Sections.layer3Sections[i].rules[j].sources.sourceList.length; k++) {
-				sourceList += jsonParsed.layer3Sections.layer3Sections[i].rules[j].sources.sourceList[k].name + "/" + jsonParsed.layer3Sections.layer3Sections[i].rules[j].sources.sourceList[k].value + ", ";
-			}
-}
-else sourceList += "ANY";
-
-if (jsonParsed.layer3Sections.layer3Sections[i].rules[j].services != null) {
-			for (var k = 0; k < jsonParsed.layer3Sections.layer3Sections[i].rules[j].services.serviceList.length; k++) {
-				if (jsonParsed.layer3Sections.layer3Sections[i].rules[j].services.serviceList[k].name != null && jsonParsed.layer3Sections.layer3Sections[i].rules[j].services.serviceList[k].value != null) {
-					serviceList += jsonParsed.layer3Sections.layer3Sections[i].rules[j].services.serviceList[k].name + "/" + jsonParsed.layer3Sections.layer3Sections[i].rules[j].services.serviceList[k].value + ", ";
+			if (jsonParsed.layer3Sections.layer3Sections[i].rules[j].appliedToList != null) {
+				for (var k = 0; k < jsonParsed.layer3Sections.layer3Sections[i].rules[j].appliedToList.appliedToList.length; k++) {
+					appliedToString += jsonParsed.layer3Sections.layer3Sections[i].rules[j].appliedToList.appliedToList[k].name + "/" + jsonParsed.layer3Sections.layer3Sections[i].rules[j].appliedToList.appliedToList[k].value + ", ";
 				}
-				else {
-					serviceList += jsonParsed.layer3Sections.layer3Sections[i].rules[j].services.serviceList[k].destinationPort + "/" + jsonParsed.layer3Sections.layer3Sections[i].rules[j].services.serviceList[k].protocolName + ", ";
-				}
-				
 			}
-}
-else serviceList += "ANY";
+			else appliedToString += "ANY";
 
-if (jsonParsed.layer3Sections.layer3Sections[i].rules[j].destinations != null) {
-			for (var k = 0; k < jsonParsed.layer3Sections.layer3Sections[i].rules[j].destinations.destinationList.length; k++) {
-				destinationList += jsonParsed.layer3Sections.layer3Sections[i].rules[j].destinations.destinationList[k].name + "/" + jsonParsed.layer3Sections.layer3Sections[i].rules[j].destinations.destinationList[k].value + ", ";
+			if (jsonParsed.layer3Sections.layer3Sections[i].rules[j].sources != null) {
+				for (var k = 0; k < jsonParsed.layer3Sections.layer3Sections[i].rules[j].sources.sourceList.length; k++) {
+					sourceList += jsonParsed.layer3Sections.layer3Sections[i].rules[j].sources.sourceList[k].name + "/" + jsonParsed.layer3Sections.layer3Sections[i].rules[j].sources.sourceList[k].value + ", ";
+				}
 			}
-}
-else destinationList += "ANY";
+			else sourceList += "ANY";
+
+			if (jsonParsed.layer3Sections.layer3Sections[i].rules[j].services != null) {
+				for (var k = 0; k < jsonParsed.layer3Sections.layer3Sections[i].rules[j].services.serviceList.length; k++) {
+					if (jsonParsed.layer3Sections.layer3Sections[i].rules[j].services.serviceList[k].name != null && jsonParsed.layer3Sections.layer3Sections[i].rules[j].services.serviceList[k].value != null) {
+						serviceList += jsonParsed.layer3Sections.layer3Sections[i].rules[j].services.serviceList[k].name + "/" + jsonParsed.layer3Sections.layer3Sections[i].rules[j].services.serviceList[k].value + ", ";
+					}
+					else {
+						serviceList += jsonParsed.layer3Sections.layer3Sections[i].rules[j].services.serviceList[k].destinationPort + "/" + jsonParsed.layer3Sections.layer3Sections[i].rules[j].services.serviceList[k].protocolName + ", ";
+					}
+
+				}
+			}
+			else serviceList += "ANY";
+
+			if (jsonParsed.layer3Sections.layer3Sections[i].rules[j].destinations != null) {
+				for (var k = 0; k < jsonParsed.layer3Sections.layer3Sections[i].rules[j].destinations.destinationList.length; k++) {
+					destinationList += jsonParsed.layer3Sections.layer3Sections[i].rules[j].destinations.destinationList[k].name + "/" + jsonParsed.layer3Sections.layer3Sections[i].rules[j].destinations.destinationList[k].value + ", ";
+				}
+			}
+			else destinationList += "ANY";
 			
 			gr.initialize();
 			gr.description = jsonParsed.layer3Sections.layer3Sections[i].rules[j].name;
@@ -158,15 +158,15 @@ else {
         <sys_created_on>2018-02-09 02:08:21</sys_created_on>
         <sys_customer_update>true</sys_customer_update>
         <sys_id>597cd12fdbc01740d64dfd0e0f961977</sys_id>
-        <sys_mod_count>8</sys_mod_count>
+        <sys_mod_count>9</sys_mod_count>
         <sys_name>NSX Firewall Rule Import</sys_name>
         <sys_package display_value="IBM Automated Firewall Modules" source="x_ibmfi_ibm_automa">09631527dbc01740d64dfd0e0f96192d</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="IBM Automated Firewall Modules">09631527dbc01740d64dfd0e0f96192d</sys_scope>
         <sys_update_name>sysauto_script_597cd12fdbc01740d64dfd0e0f961977</sys_update_name>
-        <sys_updated_by>marcus.hansen</sys_updated_by>
-        <sys_updated_on>2018-02-12 05:56:24</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-03-09 22:33:10</sys_updated_on>
         <upgrade_safe>false</upgrade_safe>
     </sysauto_script>
 </record_update>

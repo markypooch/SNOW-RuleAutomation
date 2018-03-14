@@ -13,15 +13,15 @@
         <sys_class_name>ua_table_licensing_config</sys_class_name>
         <sys_created_by>marcus.hansen</sys_created_by>
         <sys_created_on>2018-02-09 01:46:55</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
-        <sys_id>99b7552bdbc01740d64dfd0e0f961983</sys_id>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>156df534db30130079b0d421cf9619f0</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>x_ibmfi_ibm_automa_nsx_firewalls</sys_name>
         <sys_package display_value="IBM Automated Firewall Modules" source="x_ibmfi_ibm_automa">09631527dbc01740d64dfd0e0f96192d</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="IBM Automated Firewall Modules">09631527dbc01740d64dfd0e0f96192d</sys_scope>
-        <sys_update_name>ua_table_licensing_config_99b7552bdbc01740d64dfd0e0f961983</sys_update_name>
+        <sys_update_name>ua_table_licensing_config_156df534db30130079b0d421cf9619f0</sys_update_name>
         <sys_updated_by>marcus.hansen</sys_updated_by>
         <sys_updated_on>2018-02-09 01:46:55</sys_updated_on>
     </ua_table_licensing_config>

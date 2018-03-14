@@ -58,7 +58,7 @@
         <sys_class_name>item_option_new</sys_class_name>
         <sys_created_by>marcus.hansen</sys_created_by>
         <sys_created_on>2018-02-09 05:03:17</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>8b84026bdb441740d64dfd0e0f961973</sys_id>
         <sys_mod_count>3</sys_mod_count>
         <sys_name>Log Provided Rules</sys_name>
